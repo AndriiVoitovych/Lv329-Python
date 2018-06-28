@@ -1,0 +1,13 @@
+# https://www.codewars.com/kata/counting-sheep-dot-dot-dot
+#def count_sheeps(arrayOfSheeps):
+#  count_sheeps = 0
+# for sheeps in arrayOfSheeps:
+#     if sheeps == True:
+#         count_sheeps += 1
+# return count_sheeps
+
+#https://www.codewars.com/kata/surface-area-and-volume-of-a-box
+def get_size(w,h,d):
+    area = (2 * (w*h)+(w*d)+(h*d)
+    volume = w*h*d
+return [area, volume]
