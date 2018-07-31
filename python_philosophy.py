@@ -20,7 +20,7 @@ print("The number of word 'better' is " + str(res1))
 res2 = len(python_philosophy.split('never'))
 print("The number of word 'never' is " + str(res2))
 res3 = len(python_philosophy.split('is'))
-print("The number of word 'is' is " + str(res3))
+print("The number of wor d 'is' is " + str(res3))
 
 print (python_philosophy.upper())
 

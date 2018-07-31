@@ -5,6 +5,6 @@ y = list(str(x))
 
 for i in reversed(y):
     print (i, end = "")
-
+print (""" """)
 for i in sorted(y):
     print (i, end = "")
