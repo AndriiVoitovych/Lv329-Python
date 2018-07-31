@@ -1,7 +1,10 @@
+x  = 5724
+print(sum(map(int,str(x))))
 
+y = list(str(x))
 
-def two_decimal_places(n):
-    return '{0:.2f}'.format(n)
-    
-two_decimal_places(4.659725356)       
-
+for i in reversed(y):
+    print (i, end = "")
+print (""" """)
+for i in sorted(y):
+    print (i, end = "")

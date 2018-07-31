@@ -42,3 +42,7 @@ def rps(p1, p2):
 #https://www.codewars.com/kata/formatting-decimal-places-number-0
 #def two_decimal_places(n):
    # return float("{0:.2f}".format(n))
+
+#https://www.codewars.com/kata/dollars-and-cents
+def format_money(amount):
+    return '${:.2f}'.format(amount)
