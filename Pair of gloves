@@ -1,0 +1,14 @@
+https://www.codewars.com/kata/pair-of-gloves/
+
+def number_of_pairs(gloves):
+    count = 0
+    new_gloves = sorted(gloves)
+    i = 0
+    while i < len(new_gloves)-1:
+        if new_gloves[i] == new_gloves[i+1]:
+            count += 1
+            i += 2
+        else:
+            i += 1
+    return count
+            
